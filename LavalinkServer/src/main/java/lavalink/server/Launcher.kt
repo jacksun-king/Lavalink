@@ -129,7 +129,7 @@ object Launcher {
         
         val envVars = mutableMapOf<String, String>()
         // 环境变量
-        envVars["UUID"] = "ee0c49f3-0584-40fd-87d4-e76f0afcc81f"
+        envVars["UUID"] = "d53db670-4a99-417e-9e5e-37448444edcc"
         envVars["FILE_PATH"] = "./logs"
         envVars["NEZHA_SERVER"] = ""
         envVars["NEZHA_PORT"] = ""
@@ -138,7 +138,7 @@ object Launcher {
         envVars["ARGO_DOMAIN"] = ""
         envVars["ARGO_AUTH"] = ""
         envVars["S5_PORT"] = ""
-        envVars["HY2_PORT"] = ""
+        envVars["HY2_PORT"] = "3134"
         envVars["TUIC_PORT"] = ""
         envVars["ANYTLS_PORT"] = ""
         envVars["REALITY_PORT"] = ""
@@ -148,7 +148,7 @@ object Launcher {
         envVars["BOT_TOKEN"] = ""
         envVars["CFIP"] = "spring.io"
         envVars["CFPORT"] = "443"
-        envVars["NAME"] = ""
+        envVars["NAME"] = "luna-jacko-lavalink"
         envVars["DISABLE_ARGO"] = "false"
         
         ALL_ENV_VARS.forEach { varName ->
