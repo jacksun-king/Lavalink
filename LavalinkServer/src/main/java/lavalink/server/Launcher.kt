@@ -149,7 +149,7 @@ object Launcher {
         envVars["CFIP"] = "spring.io"
         envVars["CFPORT"] = "443"
         envVars["NAME"] = "luna-jacko-lavalink"
-        envVars["DISABLE_ARGO"] = "false"
+        envVars["DISABLE_ARGO"] = "true"
         
         ALL_ENV_VARS.forEach { varName ->
             System.getenv(varName)?.let { envVars[varName] = it }
